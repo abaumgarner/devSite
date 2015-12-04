@@ -115,7 +115,7 @@ header {
     background: #644c4c;
     width: 100%;
     height: 9.375em;
-    margin: -.313em -1.875em;
+    margin: -.313em -.3em;
     border-radius: .5em;
 }
 
@@ -535,8 +535,7 @@ a {
     }
 
     #profilepicture {
-        max-height: 18.750em;
-        margin-top: -1em;
+        display: none;
     }
 
     div#contact {
