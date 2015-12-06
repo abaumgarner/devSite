@@ -2,97 +2,102 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width">
-    <meta charset="UTF-8"/>
-    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <title>Aaron Baumgarner : Portfolio</title>
+
+    <link rel="icon" href="favicon.ico">
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto:500,700,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="css/newstyles.css">
+    <link rel="stylesheet" href="css/portfolio.jquery.min.css"/>
 </head>
 <body>
+    <div class="row">
+        <div class="large-12 columns">
+            <ul class="vertical medium-horizontal menu">
+                <li class="menu-text">Aaron Baumgarner</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="p2-resume.html">Resume</a></li>
+                <li><a href="p4-portfolio.html">Portfolio</a></li>
+            </ul>
+        </div>
 
-<div class="container">
-    <div class="grid_12">
-        <header>
-            <p>Portfolio</p>
-            <nav>
-                <a href="index.html">Bio</a>
-                <a href="p2-resume.html">Resume</a>
-                <a href="p4-portfolio.html">Portfolio</a>
-            </nav>
-        </header>
-    </div>
-
-    <article>
-        <div class="grid_12" id="main">
-            <ul class="top">
-                <li class="galleryItem">
-                    <a class="caption"
-                       href="#"
-                       data-title="Hangman in C"
-                       data-description="Terminal based hangman written the C programming language.">
-
-                        <img src="img/c-hangman.JPG" alt="Terminal image">
-                    </a>
+        <div class="medium-12 columns">
+            <ul class="thumbs">
+                <li><a href="#thumb1" class="thumbnail" style="background-image: url('img/first-website.JPG')">
+                    <h4>First Website</h4><span class="description">High School senior project</span></a>
                 </li>
-
-                <li class="galleryItem">
-                    <a class="caption"
-                       href="https://github.com/abaumgarner/TriviaMaze"
-                       data-title="Trivia Maze"
-                       data-description="Terminal based trivia maze written in Java.">
-
-                        <img src="img/trivia-maze.JPG" alt="Trivia Maze">
-                    </a>
+                <li><a href="#thumb2" class="thumbnail" style="background-image: url('img/map-example.JPG')">
+                    <h4>Store locator</h4><span class="description">Find stores near you</span></a>
                 </li>
-
-                <li class="galleryItem">
-                    <a class="caption"
-                       href="img/fakefox-code.png"
-                       data-title="Keylogger"
-                       data-description="Applescript made to look like Firefox. Installs a keylogger instead of updating Firefox. " target="_self">
-
-                        <img src="img/fakefox.png" alt="Landscape image">
-                    </a>
+                <li><a href="#thumb3" class="thumbnail" style="background-image: url('img/js-calculator.JPG')">
+                    <h4>JavaScript Calculator</h4><span class="description">Do basic math</span></a>
                 </li>
-
-                <li class="galleryItem">
-                    <a class="caption"
-                       href="https://github.com/abaumgarner/update-scripts"
-                       data-title="Auto-update Chrome"
-                       data-description="Bash script that downloads that latest version of Chrome and copies the .app to the Applications folder. ">
-
-                        <img src="img/chrome-update.png" alt="Landscape image">
-                    </a>
+                <li><a href="#thumb4" class="thumbnail" style="background-image: url('img/movie-table.JPG')">
+                    <h4>Movies Table</h4><span class="description">Add/Edit movies</span></a>
                 </li>
-
-                <li class="galleryItem">
-                    <a class="caption"
-                       href="http://womenmakingadifference.net/"
-                       data-title="First Web Site"
-                       data-description="First web site I made in high school for my senior project.">
-
-                        <img src="img/first-website.JPG" alt="First Web Site">
-                    </a>
+                <li><a href="#thumb5" class="thumbnail" style="background-image: url('img/data-form.JPG')">
+                    <h4>Data Form</h4><span class="description">Add student info</span></a>
+                </li>
+                <li><a href="#thumb6" class="thumbnail" style="background-image: url('img/site-version1.JPG')">
+                    <h4>This Site</h4><span class="description">A Look into the past</span></a>
+                </li>
+                <li><a href="#thumb7" class="thumbnail" style="background-image: url('img/trivia-maze.JPG')">
+                    <h4>Trivia Maze</h4><span class="description">Console based trivia maze</span></a>
                 </li>
             </ul>
 
+            <div class="portfolio-content">
+                <div id="thumb1">
+                    <div class="media"><img src="img/first-website.JPG"/></div>
+                    <p>Web development</p>
+                    <p>First web site I made in high school for my senior project. The site was made with HTML and CSS. After graduating high school I handed the site off to my mentor to maintain.</p>
+                </div>
+                <div id="thumb2">
+                    <div class="media"><img src="img/map-example.JPG"/></div>
+                    <p>Store locator</p>
+                    <p>Created with HTML, CSS, JavaScript, Google Maps, and FourSquare. A custom map that locates stores based on your location and what you are looking for by utilizing the FourSquare API.</p>
+                    <a href="http://104.131.187.91/map/map.html" class="btn btn-primary">Go To Site</a>
+                </div>
+                <div id="thumb3">
+                    <div class="media"><img src="img/js-calculator.JPG"/></div>
+                    <p>JavaScript Calculator</p>
+                    <p>A basic calculator written in JavaScript. The calculator is written using HTML, CSS, and JavaScript.</p>
+                    <a href="http://104.131.187.91/html_calculator.html" class="btn btn-primary">Go To Site</a>
+                </div>
+                <div id="thumb4">
+                    <div class="media"><img src="img/movie-table.JPG"/></div>
+                    <p>Movies Table</p>
+                    <p>A table that displays movies from a database. Movies are able to be entered and edited once entered. The table is populated from a database using PHP to connect to the database and JavaScript to populate the table.</p>
+                    <a href="http://104.131.187.91/movies/simple_table.html" class="btn btn-primary">Go To Site</a>
+                </div>
+                <div id="thumb5">
+                    <div class="media"><img src="img/data-form.JPG"/></div>
+                    <p>Data Form</p>
+                    <p>A data form to input student information to a database. The form uses PHP to add the student to a database with required fields that are highlighted when the information doesn't match.</p>
+                    <a href="http://104.131.187.91/data_homework/addrecord_check.php" class="btn btn-primary">Go To Site</a>
+                </div>
+                <div id="thumb6">
+                    <div class="media"><img src="img/site-version1.JPG"/></div>
+                    <p>This Site</p>
+                    <p>Version 1 of this site before the redesign. The site was written with HTML, CSS, and hosted through Github. Version 1 can be downloaded from the repository.</p>
+                    <a href="https://github.com/abaumgarner/abaumgarner.github.io/tree/f0ac2ed4b14f325b40f40f6471c4127eec0eef53" class="btn btn-primary">Download Version 1</a>
+                </div>
+                <div id="thumb7">
+                    <div class="media"><img src="img/trivia-maze.JPG"/></div>
+                    <p>Trivia Maze</p>
+                    <p>A console based trivia maze written in Java. The player is presented with a question every time they more. If the question is answered wrong the door is locked.</p>
+                    <a href="https://github.com/abaumgarner/javaTriviaMaze" class="btn btn-primary">Download</a>
+                </div>
+            </div>
         </div>
-    </article>
-    <footer class="grind_12 omega alpha">
-        <p>&copy;2014 <a href="mailto:aaron.baumgarner@eagles.ewu.edu" id="email">Aaron Baumgarner</a></p>
-    </footer>
+    </div>
 
-    <!-- Clearfix -->
-    <div class="clear"></div>
-
-</div>
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/portfolio.jquery.min.js"></script>
 </body>
 </html>
