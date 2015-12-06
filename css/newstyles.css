@@ -27,14 +27,12 @@ div.row div.medium-12 {
 .sectionhead {
     font-weight: 700;
     font-size: 25px;
-    margin-left: 20px;
     margin-bottom: 0;
     color: #644c4c;
 }
 .content {
     margin-top: 0;
     font-size: 1em;
-    padding-left: 1.5em;
     padding-bottom: 1em;
     max-width: 40em;
     color: hsla(60,11%,86%,1);
@@ -53,7 +51,7 @@ li.link {
     color: #e0e0d8;;
 }
 ul {
-    margin-left: 35px;
+
 }
 img[src="img/me.jpg"] {
     height: 590px;
