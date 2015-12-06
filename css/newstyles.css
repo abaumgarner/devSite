@@ -95,7 +95,8 @@ div.small-6.columns p {
 div.small-6.columns p:nth-child(2) {
     font-style: italic;
 }
-div.small-6.columns:nth-child(3),9 {
+div.small-6.columns:nth-child(3),
+.rightthis {
     text-align: right;
 }
 div.medium-12.columns div.small-12.columns.desc {
