@@ -20,5 +20,13 @@ function nightMode() {
     $('div.medium-12.columns div.small-12.columns.desc ul li').css('color', '#E1E1E1');
 }
 $(document).ready(function() {
-    //nightMode();
+    var currentTime = new Date();
+
+    var hours = currentTime.getHours();
+
+    //Auto dark theme
+    if(hours >= 20) {
+        nightMode();
+    }
+
 });
