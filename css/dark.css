@@ -1,3 +1,27 @@
+body.darkbg {
+    background: url('../img/brushed_alu_dark.png');
+    color: #E1E1E1;
+}
 .content{
     color: #E1E1E1;;
+}
+div.row div.large-12,
+div.row div.medium-12,
+div.medium-12.columns div.small-12.columns {
+    background: #141414;
+}
+.menu-text,
+.sectionhead,
+div.medium-12.columns div.small-12.columns {
+    color: #F9EE98;
+}
+.link a,
+div.medium-12.columns ul.thumbs li.content,
+div.medium-12.columns div.small-12.columns.nobg,
+div.small-6.columns p,
+div.medium-12.columns div.small-12.columns.desc ul li {
+    color: #E1E1E1;
+}
+.menu>li:not(.menu-text)>a:hover {
+    opacity: .7;
 }

@@ -3,10 +3,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-body.darkbg {
-    background: url('../img/brushed_alu_dark.png');
-    color: #E1E1E1;
-}
 a {
     color: #644c4c;
 }
