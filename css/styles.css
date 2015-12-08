@@ -13,8 +13,7 @@ a {
 a:hover {
     opacity: .7;
 }
-/* Home */
-body.home div.row div.medium-12.columns {
+div.row {
     margin-bottom: 50px;
 }
 div.row div.large-12 {
@@ -120,7 +119,7 @@ body.resume div.medium-12.columns{
 }
 body.resume div.medium-12.columns:last-child {
     padding-bottom: 50px;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 body.resume div.medium-12.columns:nth-child(3),
 body.resume div.medium-12.columns:nth-child(4),
@@ -149,6 +148,7 @@ body.resume div.medium-12.columns div.small-12.columns.nobg p {
 div.medium-12.columns ul.thumbs li.content .close {
     color: #644c4c;
     font-size: 3em;
+    padding-right: 10px;
 }
 div.medium-12.columns ul.thumbs li.content p {
     margin-bottom: 5px;
