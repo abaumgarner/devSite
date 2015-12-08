@@ -159,6 +159,6 @@ div.medium-12.columns ul.thumbs li {
     padding-right: 5px;
     padding-bottom: 5px;
 }
-img[src='img/light-on.png'] {
-    width:
+li.content p {
+    padding-right: 10px;
 }
