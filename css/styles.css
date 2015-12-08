@@ -162,3 +162,11 @@ div.medium-12.columns ul.thumbs li {
 li.content p {
     padding-right: 10px;
 }
+body.home div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="index.html"],
+body.portfolio div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="p4-portfolio.html"],
+body.resume div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="p2-resume.html"] {
+    background: rgba(0,0,0,.2);border-radius: 5px;
+}
+.menu>li:not(.menu-text)>a:hover {
+    opacity: .7;
+}

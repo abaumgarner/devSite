@@ -25,3 +25,8 @@ div.medium-12.columns div.small-12.columns.desc ul li {
 .menu>li:not(.menu-text)>a:hover {
     opacity: .7;
 }
+body.home div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="index.html"],
+body.portfolio div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="p4-portfolio.html"],
+body.resume div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="p2-resume.html"] {
+    background: rgba(256,256,256,.2);border-radius: 5px;
+}
