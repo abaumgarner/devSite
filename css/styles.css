@@ -184,19 +184,22 @@ button.btn.float-button-light {
     border-radius: 5px;
 }
 #colored-button .btn.dark {
-    color: yellow;
+    color: #F9EE98;
 }
 #colored-button .btn.light {
-    color: black;
+    color: #f5e1d8;
 }
 #colored-button button.dark,
 #colored-button button.dark:hover {
-    background: black;
+    background: #141414;
 }
 #colored-button button.light,
 #colored-button button.light:hover {
-    background: yellow;
+    background: #644c4c;
 }
 .waves-effect.waves-light .waves-ripple {
     background: rgba(192, 192, 192, 0.8);
+}
+.waves-float {
+    ox-shadow: 0 1px 1.5px 1px rgba(255,255,255,.12);
 }
