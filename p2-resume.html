@@ -9,9 +9,11 @@
 
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/waves.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/dark.css" id="darktheme" disabled="disabled">
 </head>
 <body class="resume">
     <div class="row">
@@ -22,6 +24,16 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="p2-resume.html">Resume</a></li>
                 <li><a href="p4-portfolio.html">Portfolio</a></li>
+                <li>
+                    <p id="colored-button" class="text-center">
+                        <button class="btn float-button-light light">Light</button>
+                    </p>
+                </li>
+                <li>
+                    <p id="colored-button" class="text-center">
+                        <button class="btn float-button-light dark">Dark</button>
+                    </p>
+                </li>
             </ul>
         </div>
 
@@ -150,7 +162,13 @@
 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/waves.min.js"></script>
     <script src="js/scripts.js"></script>
-  
+    <script type="text/javascript">
+        Waves.attach('.flat-buttons', ['waves-button']);
+        Waves.attach('.float-buttons', ['waves-button', 'waves-float']);
+        Waves.attach('.float-button-light', ['waves-button', 'waves-float', 'waves-light']);
+    </script>
+
 </body>
 </html>

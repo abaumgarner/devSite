@@ -170,3 +170,33 @@ body.resume div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a
 .menu>li:not(.menu-text)>a:hover {
     opacity: .7;
 }
+div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a:last-child {
+    margin-right: 10px;
+}
+/* Light/Dark buttons */
+button.btn.float-button-light {
+    height: 30px;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#colored-button .btn.dark {
+    color: yellow;
+}
+#colored-button .btn.light {
+    color: black;
+}
+#colored-button button.dark,
+#colored-button button.dark:hover {
+    background: black;
+}
+#colored-button button.light,
+#colored-button button.light:hover {
+    background: yellow;
+}
+.waves-effect.waves-light .waves-ripple {
+    background: rgba(192, 192, 192, 0.8);
+}
