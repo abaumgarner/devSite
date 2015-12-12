@@ -186,7 +186,6 @@ div.row div.medium-12.columns div.small-12.columns.nobg a {
 }
 div.row div.medium-12.columns div.small-12.columns.nobg:last-child {
     margin-top: 20px;
-    text-align: right;
 }
 /* Light/Dark buttons */
 button.btn.float-button-light {
