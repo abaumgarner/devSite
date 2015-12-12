@@ -30,3 +30,7 @@ body.portfolio div.row div.large-12.columns ul.vertical.medium-horizontal.menu l
 body.resume div.row div.large-12.columns ul.vertical.medium-horizontal.menu li a[href="p2-resume.html"] {
     background: rgba(256,256,256,.2);border-radius: 5px;
 }
+div.row div.medium-12.columns div.small-12.columns.nobg a {
+    color: #F9EE98;
+    /*background-color: #141414;*/
+}
