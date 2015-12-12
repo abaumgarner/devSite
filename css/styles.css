@@ -197,18 +197,18 @@ button.btn.float-button-light {
     margin-top: 10px;
     border-radius: 5px;
 }
-#colored-button .btn.dark {
+.colored-button .btn.dark {
     color: #F9EE98;
 }
-#colored-button .btn.light {
+.colored-button .btn.light {
     color: #f5e1d8;
 }
-#colored-button button.dark,
-#colored-button button.dark:hover {
+.colored-button button.dark,
+.colored-button button.dark:hover {
     background: #141414;
 }
-#colored-button button.light,
-#colored-button button.light:hover {
+.colored-button button.light,
+.colored-button button.light:hover {
     background: #644c4c;
 }
 .waves-effect.waves-light .waves-ripple {
