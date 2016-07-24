@@ -140,6 +140,9 @@ body.resume div.medium-12.columns div.small-12.columns.nobg p:last-child {
 body.resume div.medium-12.columns div.small-12.columns.nobg p {
     font-size: 1em;
 }
+div.medium-12.columns div.small-12.columns.nobg p span {
+    font-size: .9em;
+}
 /* Portfolio */
 div.medium-12.columns ul.thumbs li.content .close {
     color: #644c4c;
