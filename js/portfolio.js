@@ -6,4 +6,8 @@ $(document).ready(function() {
         cols: 4,
         transition: 'slideDown'
     });
+    $('.close').portfolio({
+        cols: 4,
+        transition: 'slideUp'
+    });
 });
