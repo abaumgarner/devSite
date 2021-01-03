@@ -12,5 +12,7 @@ $(document).ready(function() {
         transition: 'slideUp'
     });
 
-    $("div.media").magnificPopup({type:'image'});
+    $(".portfolio-content").magnificPopup({
+        delegate: 'img',
+        type: 'image'});
 });
