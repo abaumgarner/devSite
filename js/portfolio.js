@@ -12,5 +12,5 @@ $(document).ready(function() {
         transition: 'slideUp'
     });
 
-    $("a.btn.btn-primary").magnificPopup({type:'image'});
+    $("div.media").magnificPopup({type:'image'});
 });
